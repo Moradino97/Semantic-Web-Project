@@ -1,0 +1,25 @@
+@prefix ex: <http://www.example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix stgo: <http://visualdataweb.org/SGTO/> .
+
+ex:StopArea:OCE87734004 a stgo:TrainStation;
+	stgo:Stop_Name "Gare de Clermont-Ferrand"@fr;
+	stgo:Stop_Lat "45.77856939"^^xsd:decimal;
+	stgo:Stop_Long "3.10051901"^^xsd:decimal;
+
+ex:StopArea:OCE87734053 a stgo:TrainStation;
+	stgo:Stop_Name "Gare de Riom-Châtel-Guyon"@fr;
+	stgo:Stop_Lat "45.88984232"^^xsd:decimal;
+	stgo:Stop_Long "3.1208132"^^xsd:decimal;
+
+ex:StopArea:OCE87732404 a stgo:TrainStation;
+	stgo:Stop_Name "Gare de Gannat"@fr;
+	stgo:Stop_Lat "46.09743576"^^xsd:decimal;
+	stgo:Stop_Long "3.20488011"^^xsd:decimal;
+
+ex:StopArea:OCE87732008 a stgo:TrainStation;
+	stgo:Stop_Name "Gare de Vichy"@fr;
+	stgo:Stop_Lat "46.12697018"^^xsd:decimal;
+	stgo:Stop_Long "3.43048945"^^xsd:decimal;
+
